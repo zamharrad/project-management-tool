@@ -30,9 +30,14 @@ public class ProjectController {
        ResponseEntity<?> errorMap = mapValidationErrorService.mapValidationErrorService(result);
        if (errorMap!=null) return errorMap;
 
-
-
         Project project1 = projectService.saveAndUpdateProject(project);
         return new ResponseEntity<Project>(project,HttpStatus.CREATED);
+    }
+
+    @GetMapping("/{projectId}")
+    public ResponseEntity<?> findProjectByIdentifier(@PathVariable String projectId){
+
+        Project findProject = projectService.findProjectByIdentifer(projectId);
+        return new  ResponseEntity(findProject ,HttpStatus.OK);
     }
 }
