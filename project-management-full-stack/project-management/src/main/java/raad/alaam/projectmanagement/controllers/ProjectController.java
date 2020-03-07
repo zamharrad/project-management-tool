@@ -7,6 +7,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 import raad.alaam.projectmanagement.domain.Project;
+import raad.alaam.projectmanagement.services.MapValidationErrorService;
 import raad.alaam.projectmanagement.services.ProjectService;
 
 import javax.validation.Valid;
@@ -20,18 +21,17 @@ public class ProjectController {
     @Autowired
     private ProjectService projectService;
 
+    @Autowired
+    private MapValidationErrorService mapValidationErrorService;
+
     @PostMapping("")
     public ResponseEntity<?> createNewProject(@Valid @RequestBody Project project, BindingResult result){
 
-        if (result.hasErrors()){
+       ResponseEntity<?> errorMap = mapValidationErrorService.mapValidationErrorService(result);
+       if (errorMap!=null) return errorMap;
 
-            Map<String,String> errorMap = new HashMap<>();
 
-            for(FieldError error : result.getFieldErrors()){
-                    errorMap.put(error.getField(),error.getDefaultMessage());
-            }
-            return new ResponseEntity<>(errorMap,HttpStatus.BAD_REQUEST);
-        }
+
         Project project1 = projectService.saveAndUpdateProject(project);
         return new ResponseEntity<Project>(project,HttpStatus.CREATED);
     }
