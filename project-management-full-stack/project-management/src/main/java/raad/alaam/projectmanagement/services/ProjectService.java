@@ -25,6 +25,13 @@ public class ProjectService {
     }
 
     public Project findProjectByIdentifer(String projecId){
-        return  projectRepository.findByProjectIdentifier(projecId.toUpperCase());
+
+        Project project =  projectRepository.findByProjectIdentifier(projecId.toUpperCase());
+
+        if (project == null)
+        {
+            throw new ProjectIdException("Project ID :"+projecId+" ,does not exist");
+        }
+        return project;
     }
 }
