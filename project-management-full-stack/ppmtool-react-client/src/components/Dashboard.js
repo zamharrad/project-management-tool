@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-export default class Dashboard extends Component {
-    render() {
-        return (
-            <div>
-            
-            </div>
-        )
-    }
+class Dashboard extends Component {
+  render() {
+    return (
+      <div>
+        <h2>Project Managment Tool</h2>
+      </div>
+    );
+  }
 }
 
 export default Dashboard;
