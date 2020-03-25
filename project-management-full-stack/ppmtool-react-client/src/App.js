@@ -5,18 +5,21 @@ import Header from "./components/Layout/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import AddProject from "./components/Project/AddProject";
+import { Provider } from "react-redux";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <header className="App-header">
-          <Header />
-          <Route exact path="/dashboard" component={Dashboard} />
-          <Route exact path="/addProject" component={AddProject} />
-        </header>
-      </div>
-    </Router>
+    <Provider>
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            <Header />
+            <Route exact path="/dashboard" component={Dashboard} />
+            <Route exact path="/addProject" component={AddProject} />
+          </header>
+        </div>
+      </Router>
+    </Provider>
   );
 }
 
