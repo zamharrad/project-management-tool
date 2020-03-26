@@ -9,8 +9,9 @@ let store;
 
 if (window.navigator.userAgent.includes("Chrome")) {
   store = createStore(
-    initialState,
     rootReducer,
+    initialState,
+
     compose(
       applyMiddleware(...middleware),
       window.__REDUX_DEVTOOLS_EXTENSION__ &&
@@ -19,8 +20,8 @@ if (window.navigator.userAgent.includes("Chrome")) {
   );
 } else {
   store = createStore(
-    initialState,
     rootReducer,
+    initialState,
     compose(applyMiddleware(...middleware))
   );
 }
