@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cb6762c-2d30-4f52-95a8-c634f32b6946" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ppmtool-react-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-react-client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ppmtool-react-client/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-react-client/src/actions/projectActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-react-client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-react-client/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-react-client/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-react-client/src/components/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-react-client/src/components/Project/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-react-client/src/components/Project/ProjectItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-react-client/src/components/Project/updateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-react-client/src/components/Project/updateProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ppmtool-react-client/src/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ppmtool-react-client/src/reducers/projectReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/domain/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/MapValidationErrorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/MapValidationErrorService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="11" />
-          <entry key="java" value="15" />
+          <entry key="java" value="18" />
           <entry key="java~Stashed changes" value="1" />
           <entry key="properties" value="2" />
         </counts>
@@ -42,21 +37,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="18" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2520" />
-          <entry key="txt" value="534" />
+          <entry key="java" value="2579" />
+          <entry key="txt" value="555" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2520" />
-          <entry key="PLAIN_TEXT" value="534" />
+          <entry key="JAVA" value="2579" />
+          <entry key="PLAIN_TEXT" value="555" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -98,11 +93,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/domain/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/MapValidationErrorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/exceptions/ProjectIdExceptionResponce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/repositories/ProjectRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -130,7 +155,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/domain/project.java" />
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/repository/ProjectRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/MapValidationErrorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/exceptions/ProjectIdExceptionResponce.java" />
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/exceptions/ProjectIdException.java" />
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/exceptions/CustomResponseEntityExceptionHandler.java" />
@@ -138,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/ProjectService.java" />
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/controllers/ProjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/domain/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/MapValidationErrorService.java" />
       </list>
     </option>
   </component>
@@ -155,11 +180,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,6 +219,50 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="projectmanagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="projectmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="projectmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="projectmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="projectmanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-management" type="b2602c69:ProjectViewProjectNode" />
@@ -255,7 +324,7 @@
       <workItem from="1584866188770" duration="4980000" />
       <workItem from="1585366584061" duration="2418000" />
       <workItem from="1586245002338" duration="6056000" />
-      <workItem from="1588062312076" duration="1972000" />
+      <workItem from="1588062312076" duration="5345000" />
     </task>
     <task id="LOCAL-00001" summary="commit domain package and project domain class">
       <created>1583115619215</created>
@@ -331,13 +400,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54638000" />
+    <option name="totallyTimeSpent" value="58011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -347,7 +416,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35573772" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19508196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,7 +457,8 @@
     <MESSAGE value="commit project service class" />
     <MESSAGE value="commit findAllProject method" />
     <MESSAGE value="commit deleteProject method" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit deleteProject method" />
+    <MESSAGE value="commit Project.java file changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Project.java file changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/domain/project.java~Stashed changes" />
@@ -462,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/exceptions/ProjectIdExceptionResponce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/exceptions/CustomResponseEntityExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -485,20 +548,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/MapValidationErrorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/repositories/ProjectRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,8 +592,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/domain/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/services/MapValidationErrorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/exceptions/ProjectIdExceptionResponce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/raad/alaam/projectmanagement/repositories/ProjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
